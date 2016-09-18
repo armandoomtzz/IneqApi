@@ -13,7 +13,7 @@ namespace IneqApi.Models
         public float GuaranteeDuration { get; set; }
         public bool Active { get; set; }
 
-
+        public virtual ICollection<Equipment> Equipment { get; set; }
 
     }
 }
