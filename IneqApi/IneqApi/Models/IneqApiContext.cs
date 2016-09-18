@@ -13,8 +13,15 @@ namespace IneqApi.Models
         public IneqApiContext() : base("IneqApiContext")
         {
         }
-            public DbSet<Status>Statuses { get; set; }
-            public DbSet<Equipment>Equipements { get; set; }
+
+        public DbSet<Status>Statuses { get; set; }
+
+        public DbSet<Equipment>Equipements { get; set; }
+
+        public DbSet<Component>Components { get; set; }
+        public DbSet<ComponentType>ComponentTypes { get; set; }
+
+        
 
         protected override  void OnModelCreating(DbModelBuilder modelBuilder)
         {
