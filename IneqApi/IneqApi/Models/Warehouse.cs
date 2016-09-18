@@ -13,6 +13,6 @@ namespace IneqApi.Models
         public string Responsable { get; set; }
         public bool Active { get; set; }
 
-        public virtual ICollection<Equipment> Equipments { get; set; }
+        public virtual ICollection<Equipment> Equipment { get; set; }
     }
 }

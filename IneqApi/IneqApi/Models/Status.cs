@@ -15,6 +15,6 @@ namespace IneqApi.Models
 
 
 
-        public virtual ICollection<Equipment> Equipments { get; set; }
+        public virtual ICollection<Equipment> Equipment { get; set; }
     }
 }
