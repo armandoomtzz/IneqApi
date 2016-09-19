@@ -12,5 +12,6 @@ namespace IneqApi.Models
         public bool Active { get; set; }
 
         public virtual ICollection<Model> Model { get; set; }
+        public virtual ICollection<Equipment> Equipment { get; set; }
     }
 }
