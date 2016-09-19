@@ -3,7 +3,7 @@ namespace IneqApi.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class inicio : DbMigration
+    public partial class Ericka : DbMigration
     {
         public override void Up()
         {

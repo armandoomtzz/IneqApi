@@ -149,9 +149,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201609182354363_inicio.cs" />
-    <Compile Include="Migrations\201609182354363_inicio.Designer.cs">
-      <DependentUpon>201609182354363_inicio.cs</DependentUpon>
+    <Compile Include="Migrations\201609190055247_Ericka.cs" />
+    <Compile Include="Migrations\201609190055247_Ericka.Designer.cs">
+      <DependentUpon>201609190055247_Ericka.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -241,8 +241,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201609182354363_inicio.resx">
-      <DependentUpon>201609182354363_inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201609190055247_Ericka.resx">
+      <DependentUpon>201609190055247_Ericka.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
