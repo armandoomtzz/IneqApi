@@ -7,13 +7,13 @@ namespace IneqApi.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.2-31219")]
-    public sealed partial class Armando : IMigrationMetadata
+    public sealed partial class inicio : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Armando));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(inicio));
         
         string IMigrationMetadata.Id
         {
-            get { return "201609182318250_Armando"; }
+            get { return "201609182354363_inicio"; }
         }
         
         string IMigrationMetadata.Source
