@@ -109,10 +109,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\IneqApi\Models\ComponentType.cs">
+      <Link>Models\ComponentType.cs</Link>
+    </Compile>
+    <Compile Include="..\IneqApi\Models\User.cs">
+      <Link>Models\User.cs</Link>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
