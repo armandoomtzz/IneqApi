@@ -34,6 +34,10 @@ namespace IneqApi.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+            var e = db.Estudiantes.Find(id);
+            db.Estudiantes.Attach(e);
+            db.Estudiantes.Remove(e);
+            return db.SaveChanges() > a;
         }
     }
 }
